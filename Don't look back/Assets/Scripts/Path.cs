@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Path : MonoBehaviour
@@ -35,6 +36,7 @@ public class Path : MonoBehaviour
         if (pathType == PathType.Loop)
         {
             index %= waypoints.Length;
+            return index;
         }
         else if (pathType == PathType.ReverseWhenComplete)
         {
@@ -42,8 +44,10 @@ public class Path : MonoBehaviour
             {
                 direction *= -1;
                 index += direction * 2;
+                return index;
             }
         }
+        return index;   
     }
 
     private void OnDrawGizmos()
@@ -65,5 +69,10 @@ public class Path : MonoBehaviour
         {
             Gizmos.DrawSphere(waypoint.position, 0.2f);
         }
+    }
+
+    public static object Combine(string dataPath, string v)
+    {
+        throw new NotImplementedException();
     }
 }
