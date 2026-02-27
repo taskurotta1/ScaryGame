@@ -12,12 +12,17 @@ public class PlayerMovement : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
     bool isGrounded;
+    public bool canMove = true;
 
-   
 
 
     void Update()
     {
+        if (!canMove) 
+        {
+            return;
+        }
+
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         
         if (isGrounded && velocity.y <0 )

@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement; 
 
@@ -11,15 +12,17 @@ public class GameManager : MonoBehaviour
         if (gameHasEnded == false)
         {
             gameHasEnded = true;
-            
+
         }
     }
 
-    public void GameWon()
+    public IEnumerator GameWon()
     {
         Debug.Log("Game Won!");
         winPanel.SetActive(true);
         gameHasEnded = true;
+        yield return new WaitForSeconds(5);
+        LoadNextScene();
     }
 
     public void LoadNextScene()

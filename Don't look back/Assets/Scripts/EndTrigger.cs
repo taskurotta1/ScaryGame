@@ -6,6 +6,6 @@ public class EndTrigger : MonoBehaviour
 
     public void OnTriggerEnter()
     {
-        gameManager.GameWon();
+        StartCoroutine(gameManager.GameWon());
     }
 }
