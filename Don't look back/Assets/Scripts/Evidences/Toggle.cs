@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Backpack : MonoBehaviour
+public class Evidences : MonoBehaviour
 {
     public GameObject BackpackUI;
     bool toggle;

@@ -5,6 +5,7 @@ public class Interaction : MonoBehaviour
     public float interactionDistance;
     public GameObject interactionText;
     public LayerMask interactionLayers;
+    public GameObject Toggle;
 
     void Update()
     {
@@ -12,13 +13,13 @@ public class Interaction : MonoBehaviour
 
         if (Physics.Raycast(transform.position, transform.forward, out hit, interactionDistance, interactionLayers))
         {
-            if (hit.collider.gameObject.GetComponent<Backpack>())
-            {
+            if (gameObject.CompareTag("Interactable"))
+                {
                 interactionText.SetActive(true);
 
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    hit.collider.gameObject.GetComponent<Backpack>().openCloseBackpack();
+                    hit.collider.gameObject.CompareTag("Interactabe").openClose();
                 }
 
             }
