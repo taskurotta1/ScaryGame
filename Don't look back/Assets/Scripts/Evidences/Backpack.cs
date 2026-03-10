@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Evidences : MonoBehaviour
+public class Backpack: MonoBehaviour
 {
     public GameObject BackpackUI;
     bool toggle;
     public PlayerMovement player;
     
-    public void openCloseBackpack()
+    public void openClose()
     {
         toggle = !toggle;
         if (toggle == false);

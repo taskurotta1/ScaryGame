@@ -13,13 +13,13 @@ public class Interaction : MonoBehaviour
 
         if (Physics.Raycast(transform.position, transform.forward, out hit, interactionDistance, interactionLayers))
         {
-            if (gameObject.CompareTag("Interactable"))
+            if (hit.collider.gameObject.CompareTag("Interactable"))
                 {
                 interactionText.SetActive(true);
 
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    hit.collider.gameObject.CompareTag("Interactabe").openClose();
+                    hit.collider.gameObject.GetComponent<Interactable>().BaseInteract();
                 }
 
             }
