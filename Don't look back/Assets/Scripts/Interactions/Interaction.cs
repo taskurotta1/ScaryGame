@@ -5,7 +5,6 @@ public class Interaction : MonoBehaviour
     public float interactionDistance;
     public GameObject interactionText;
     public LayerMask interactionLayers;
-    public GameObject Toggle;
 
     void Update()
     {
