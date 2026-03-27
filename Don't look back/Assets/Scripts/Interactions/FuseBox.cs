@@ -7,6 +7,8 @@ public class FuseBox : Interactable
     private bool EscapedoorOpen;
     public bool hasFuse;
     public GameObject FuseBoxUI;
+    public GameObject RedLight;
+    public GameObject GreenLight;
     bool toggle2;
 
     public override void BaseInteract()
@@ -15,6 +17,8 @@ public class FuseBox : Interactable
         {
             EscapedoorOpen = !EscapedoorOpen;
             Escapedoor.SetActive(false);
+            RedLight.SetActive(false);
+            GreenLight.SetActive(true);
             toggle2 = !toggle2;
             if (toggle2 == false)
             {
