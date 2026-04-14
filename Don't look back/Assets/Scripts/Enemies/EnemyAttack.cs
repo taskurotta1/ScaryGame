@@ -5,6 +5,7 @@ public class EnemyAttack : MonoBehaviour
     public float attackRange;
     public Transform player;
     public GameObject Enemy;
+    public GameObject Enemy2;
 
     void Update()
     {

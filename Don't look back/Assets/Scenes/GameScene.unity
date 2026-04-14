@@ -14,20 +14,20 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 0.084905684, g: 0.084905684, b: 0.084905684, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.005
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 0.35
+  m_AmbientIntensity: 0.2
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.084905684, g: 0.084905684, b: 0.084905684, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: e824e096d0331074da62688f576040a6, type: 2}
-  m_HaloStrength: 0.5
+  m_HaloStrength: 0.191
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
@@ -35,7 +35,7 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 0.293
+  m_ReflectionIntensity: 0
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
   m_UseRadianceAmbientProbe: 0
@@ -259,7 +259,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.020947395, y: 0.020947395, z: 0.70679647, w: 0.70679647}
   m_LocalPosition: {x: 0.03125301, y: -0.14144036, z: 0.15262327}
-  m_LocalScale: {x: 0.22282486, y: 0.18863279, z: 0.20989522}
+  m_LocalScale: {x: 0.22282486, y: 0.1886328, z: 0.20989521}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 330585546}
@@ -304,8 +304,8 @@ Light:
   serializedVersion: 12
   m_Type: 0
   m_Color: {r: 1, g: 0.9647351, b: 0.8443396, a: 1}
-  m_Intensity: 80.3
-  m_Range: 45
+  m_Intensity: 80.03
+  m_Range: 75
   m_SpotAngle: 56.73664
   m_InnerSpotAngle: 39.625256
   m_CookieSize2D: {x: 0.5, y: 0.5}
@@ -5314,8 +5314,8 @@ Transform:
   m_LocalScale: {x: 3.7028995, y: 3.7028995, z: 3.7028995}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6796696}
   - {fileID: 1238627160}
+  - {fileID: 6796696}
   m_Father: {fileID: 2120993139}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &330585547
@@ -15133,13 +15133,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1048368250}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 240287819}
-  m_Father: {fileID: 2000541124}
+  m_Father: {fileID: 1845828154}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -19945,7 +19945,7 @@ Transform:
   m_GameObject: {fileID: 1318031026}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.722, y: 8.72, z: 0.2814}
+  m_LocalPosition: {x: 16.722, y: 8.75, z: 0.2814}
   m_LocalScale: {x: 76.50992, y: 0.36158752, z: 67.39453}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25096,6 +25096,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1419609429}
+  - {fileID: 1048368251}
   m_Father: {fileID: 2000541124}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -26560,7 +26561,6 @@ Transform:
   m_Children:
   - {fileID: 842653472}
   - {fileID: 1088509922}
-  - {fileID: 1048368251}
   - {fileID: 1845828154}
   - {fileID: 176636722}
   - {fileID: 1499234250}
@@ -27873,7 +27873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 2120993140}
-  speed: 10
+  speed: 9
   gravity: -0.01
   groundCheck: {fileID: 679470848}
   groundDistance: 0.4
@@ -27908,9 +27908,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c14e433310db9e47ac5fdfbd48f8ef9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAttack
-  attackRange: 50
+  attackRange: 75
   player: {fileID: 2120993139}
   Enemy: {fileID: 1026978635}
+  Enemy2: {fileID: 2045475587}
 --- !u!1 &2121765050
 GameObject:
   m_ObjectHideFlags: 0
