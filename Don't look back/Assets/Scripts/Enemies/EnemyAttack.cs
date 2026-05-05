@@ -4,7 +4,7 @@ public class EnemyAttack : MonoBehaviour
 {
     public float attackRange;
     public Transform player;
-    public GameObject Enemy;
+    public GameObject Enemy1;
     public GameObject Enemy2;
 
     void Update()
@@ -16,7 +16,7 @@ public class EnemyAttack : MonoBehaviour
             if (hit.collider.gameObject.CompareTag("Enemy"))
             {
                 Vector3 playerPosition = player.position;
-                Enemy.transform.position = playerPosition;
+                Enemy1.transform.position = playerPosition;
             }
         }
     }
