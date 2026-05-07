@@ -9,7 +9,6 @@ public class Enemy : MonoBehaviour
     [SerializeField] Path path;
 
     NavMeshAgent agent;
-
     float time = 0f;
 
     private void Awake()
