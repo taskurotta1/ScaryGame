@@ -323,8 +323,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4293388263
-  m_fontColor: {r: 0.90588236, g: 0.90588236, b: 0.90588236, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -341,13 +341,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 24.2
+  m_fontSizeBase: 24.2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 16
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -526,7 +526,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1143172857, guid: a0751c36d0d76f74db322e89960275de, type: 3}
+  m_Sprite: {fileID: -1491893125, guid: 41f97137eb5cb7f4fbdaedd002eaafbc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -729,7 +729,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 3.6100159, y: -787}
-  m_SizeDelta: {x: 200, y: 44.634}
+  m_SizeDelta: {x: 0, y: 44.634}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1461206544
 MonoBehaviour:
@@ -752,11 +752,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Thanks for playing \n\n\n\n\n\n\n\n\n\n\nDeveloped by\t\t\tSara Mustonen\n\n\n\n\n\n\n\n\n\n\n\n\nVoice
-    actors:\t\tRambo\n\n\t\t\t\tNipa\n\n\n\n\n\n\n\nCoding support\t\tJaakko\n\n\n\n\n\n\n\n\n\nEmotional
-    supports\tJaakko\n\t\t\t\t\n\t\t\t\tSara"
+    actors\t\tRambo\n\n\t\t\t\tNipa\n\n\n\n\nMusic\t\t\tPixabay\n\n\n\n\nCoding support\t\t
+    Jaakko Mursu\n\n\n\n\n\n\n\n\n\nThis is a demo of the game. The final game will
+    be released in 2027. "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0b65c99348f068b49bef5db0bb76a6e4, type: 2}
+  m_sharedMaterial: {fileID: 21809785584020342, guid: 0b65c99348f068b49bef5db0bb76a6e4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -780,13 +781,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 33.46
+  m_fontSizeBase: 33.46
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -819,7 +820,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -703.2359, y: -206.29805, z: -629.5948, w: -1804.3263}
+  m_margin: {x: -782.36053, y: -206.29805, z: -795.8378, w: -1804.3263}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

@@ -1,11 +1,13 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class EnemyAttack : MonoBehaviour
 {
     public float attackRange;
     public Transform player;
     public GameObject Enemy1;
-    public GameObject Enemy2;
+    public AudioClip jumpScare;
+    public AudioSource audioSource;
 
     void Update()
     {
@@ -15,9 +17,11 @@ public class EnemyAttack : MonoBehaviour
         {
             if (hit.collider.gameObject.CompareTag("Enemy"))
             {
+                audioSource.PlayOneShot(jumpScare, 1);
                 Vector3 playerPosition = player.position;
                 Enemy1.transform.position = playerPosition;
             }
         }
     }
+
 }
