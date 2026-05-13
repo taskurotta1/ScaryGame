@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: af1273a2464c184429e695e2613a7b7c
+guid: 73bffb3f66adc3e428c272d8d8e66a9a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,101 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Button_0
+      name: UI_Graphics_0
       rect:
         serializedVersion: 2
         x: 0
+        y: 17
+        width: 290
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ecc26b9ca981347a8652242fbf531e
+      internalID: -1970029041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Graphics_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 17
+        width: 289
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab95bc559928c34da59826d2fbde5a9
+      internalID: 1281665989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Graphics_2
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 17
+        width: 290
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8906b43585dbd6e4b93643c92019c041
+      internalID: 489481789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Graphics_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 8
+        width: 289
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231df41822e028a4581821cf0c3f247e
+      internalID: 619883241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Graphics_4
+      rect:
+        serializedVersion: 2
+        x: 1358
         y: 0
-        width: 780
-        height: 186
+        width: 289
+        height: 273
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdf4350313a0b0747b3661138f170613
-      internalID: -1547347954
+      spriteID: 135f67d813d2ce34496e306722b2f809
+      internalID: 1974927882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Button_1
+      name: UI_Graphics_5
       rect:
         serializedVersion: 2
-        x: 705
-        y: 184
-        width: 20
-        height: 5
+        x: 1683
+        y: 0
+        width: 290
+        height: 273
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,52 +222,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2de77ccaee05f545860562e3fe6e8c4
-      internalID: 501494313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Button_2
-      rect:
-        serializedVersion: 2
-        x: 737
-        y: 184
-        width: 7
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73cd96b9340515d49a15d9860b97ea21
-      internalID: 695155453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Button_3
-      rect:
-        serializedVersion: 2
-        x: 773
-        y: 132
-        width: 8
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 482d257efbc349e4a87fb21fd02e7b5f
-      internalID: 1974878284
+      spriteID: adbfe8d279bfcc942b7c004c0ea702e6
+      internalID: -126748361
       vertices: []
       indices: 
       edges: []
@@ -188,7 +232,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d857da94ec3849641b6f69aa2d5b011d
+    spriteID: cb567df9edce0914c8196f397fce6e70
     internalID: 0
     vertices: []
     indices: 
@@ -200,10 +244,12 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Button_0: -1547347954
-      Button_1: 501494313
-      Button_2: 695155453
-      Button_3: 1974878284
+      UI_Graphics_0: -1970029041
+      UI_Graphics_1: 1281665989
+      UI_Graphics_2: 489481789
+      UI_Graphics_3: 619883241
+      UI_Graphics_4: 1974927882
+      UI_Graphics_5: -126748361
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
