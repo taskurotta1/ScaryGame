@@ -9,12 +9,14 @@ public class FuseBox : Interactable
     public GameObject FuseBoxUI;
     public GameObject RedLight;
     public GameObject GreenLight;
+    public GameObject FuseInPlace;
     bool toggle2;
 
     public override void BaseInteract()
     {
         if (hasFuse)
         {
+            FuseInPlace.SetActive(true);
             EscapedoorOpen = !EscapedoorOpen;
             Escapedoor.SetActive(false);
             RedLight.SetActive(false);

@@ -8,6 +8,7 @@ public class EnemyAttack : MonoBehaviour
     public GameObject Enemy1;
     public AudioClip jumpScare;
     public AudioSource audioSource;
+    public bool hasPlayed;
 
     void Update()
     {
@@ -20,6 +21,7 @@ public class EnemyAttack : MonoBehaviour
                 audioSource.PlayOneShot(jumpScare, 1);
                 Vector3 playerPosition = player.position;
                 Enemy1.transform.position = playerPosition;
+                Destroy(Enemy1, 1f);
             }
         }
     }
